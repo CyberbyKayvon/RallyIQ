@@ -1,4 +1,4 @@
-// StrokeStudio - Interactive Elements
+// RallyIQ - Interactive Elements
 
 // Mobile Navigation Toggle
 const hamburger = document.querySelector('.hamburger');
@@ -72,4 +72,4 @@ document.querySelectorAll('.video-placeholder').forEach(placeholder => {
   });
 });
 
-console.log('StrokeStudio loaded successfully!');
+console.log('RallyIQ loaded successfully!');
