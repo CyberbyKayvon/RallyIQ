@@ -1,7 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <!-- Background circle -->
-  <circle cx="50" cy="50" r="48" fill="#1a1f3a"/>
+  <!-- Tennis ball inspired background -->
+  <circle cx="50" cy="50" r="48" fill="#B4EC51"/>
 
-  <!-- Large Q in tennis ball green -->
-  <text x="50" y="75" font-family="Arial, sans-serif" font-size="65" font-weight="900" fill="#B4EC51" text-anchor="middle">Q</text>
+  <!-- Tennis ball curve lines (left) -->
+  <path d="M 15 50 Q 30 25, 50 20" stroke="#1a1f3a" stroke-width="2.5" fill="none" opacity="0.3"/>
+
+  <!-- Tennis ball curve lines (right) -->
+  <path d="M 85 50 Q 70 75, 50 80" stroke="#1a1f3a" stroke-width="2.5" fill="none" opacity="0.3"/>
+
+  <!-- Dark overlay circle for contrast -->
+  <circle cx="50" cy="50" r="35" fill="#1a1f3a" opacity="0.85"/>
+
+  <!-- Large bold Q in tennis green -->
+  <text x="50" y="72" font-family="Arial, sans-serif" font-size="55" font-weight="900" fill="#B4EC51" text-anchor="middle">Q</text>
 </svg>
